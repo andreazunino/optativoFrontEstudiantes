@@ -1,0 +1,93 @@
+.form-container {
+  width: 95%; /* Más ancho */
+  max-width: 1000px; /* Ajuste del ancho máximo */
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px; /* Reducir padding para hacerlo más bajo */
+  border-radius: 12px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.form-container:hover {
+  transform: translateY(-8px);
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem; /* Fuente más pequeña para el título */
+  color: #333; 
+  margin-bottom: 30px; /* Espaciado más reducido */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Reducir margen entre grupos */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 1.2rem; /* Fuente más pequeña */
+  font-weight: bold;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 12px; /* Reducir el padding del input */
+  font-size: 1.2rem; /* Fuente más pequeña */
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+  border-color: #6a11cb;
+  box-shadow: 0 0 8px rgba(106, 17, 203, 0.4);
+  outline: none;
+}
+
+.submit-button {
+  background-color: #6a11cb;
+  color: white;
+  border: none;
+  padding: 10px 20px; /* Botón más pequeño */
+  font-size: 1.4rem; /* Fuente más pequeña */
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.3s;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.submit-button:hover {
+  background-color: #2575fc;
+  transform: translateY(-2px);
+}
+
+.error {
+  color: red;
+  font-size: 1.2rem; /* Fuente más pequeña */
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.back-home-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #ff4d4d;
+  color: white;
+  padding: 8px 12px; /* Botón más pequeño */
+  font-size: 1rem; /* Fuente más pequeña */
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.back-home-button:hover {
+  background-color: #ff1a1a;
+  transform: translateY(-3px);
+}
